@@ -1,0 +1,71 @@
+\documentclass[fleqn,12pt,a4paper,twoside]{article}
+
+\usepackage{graphicx,calc,soul,amsmath,fancyhdr,psfrag}
+\hyphenation{MATLAB}
+
+% Set the dimensions of the paper.
+\setlength{\paperwidth}{210mm}
+\setlength{\paperheight}{297mm}
+
+% Set the dimensions of the text.
+\setlength{\textwidth}{\paperwidth-6cm}
+\setlength{\textheight}{\paperheight-2in}
+
+\setlength{\headheight}{15pt}
+\setlength{\marginparwidth}{3cm - \marginparsep -0.25in}
+
+% Adjust margins to fit the paper and text dimensions.
+\setlength{\oddsidemargin}{0.5\paperwidth-0.5\textwidth-1in}
+\setlength{\evensidemargin}{\oddsidemargin}
+\setlength{\topmargin}{0.5\paperheight-0.5\textheight-1in-\headheight-\headsep}
+
+\markright{Experiment 3F1: Flight Control}
+
+\begin{document}
+  
+  \newpage
+  \thispagestyle{empty}
+\section*{Worksheet}
+
+\begin{tabbing}
+2. Simplified aircraft model. \= Transfer function $=$ \\[4mm]
+        \verb+num =+ \>\verb+den =+\\[1mm]
+\end{tabbing}
+
+\noindent
+Controller transfer function $=$\\[4mm]
+$k=$ \hspace*{2cm} $D=$\\[3mm]
+
+\noindent
+Phase margin $=$\\[3mm]
+
+\noindent
+Amount of extra time delay which can be tolerated $=$\\[3mm] 
+
+\begin{tabbing}
+2.1. PIO. \= Period of oscillation (observed) $=$\\[4mm]
+        \> Period of oscillation (theoretical) $=$\\[1mm]
+\end{tabbing}
+
+\begin{tabbing}
+2.2. Sinusoidal disturbances.\\[4mm]
+ \= Maximum stabilising gain $=$\\[4mm]
+        \> Gain at 0.66 Hz $=$ \hspace*{4cm} \= Phase at 0.66 Hz $=$\\[4mm]
+        \> Open loop T.F.\ $(y\to d)$ =   \> Closed loop T.F.\ $(y\to d)$ =\\[1mm]
+\end{tabbing}
+
+\noindent
+2.3. Fastest pole. $T=$\\[3mm]
+
+\begin{tabbing}
+3. Autopilot. \= Proportional gain $K_c=$\\[4mm]
+        \> Period of oscillation $T_c=$\\[4mm]
+3.1 Transfer function of PID controller $=$\\[10mm]
+    \> PID constants: $K_p = \hspace*{1.5cm} T_i = \hspace*{1.5cm}
+T_d = \hspace*{1cm}$\\[4mm]
+        \> Final value of \,$T_d = $\\
+\end{tabbing}
+
+
+\end{document}
+
